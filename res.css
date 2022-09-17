@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.parent{
+    margin: 1%;
+    width:98%;
+    float: left;
+    background-color: rgb(204, 232, 232);
+}
+.sub-parent{
+    padding: 2% 5%;
+    width: 90%;
+    border:solid black;
+    float: left;
+}
+.sub-parent1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQsDFXlENQJ6z0T1CpyS7MK6zzzakclKeGw&usqp=CAU");
+    padding: 2% 5%;
+    width: 90%;
+    border:solid black;
+    float: left;
+}
+.image{
+    height: 200px;
+    width: 170px;
+    float: left;
+}
+.child-img{
+    
+    /* background-color: gray; */
+    align-items: center;
+    width: 46%;
+    margin: 2%;
+    float: left;
+}
+.child-about{
+    color: beige;
+    width: 43%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    float: left;
+}
+.child{
+    width: 46%;
+    margin: 2%;
+    float: left;
+}
+.line-height{
+    line-height: 40px;
+}
+.space{
+    margin-left: 8%;
+}
+.button-style{
+    /* margin-left: 10%; */
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: azure;
+    background-color: rgb(164, 112, 212);
+    /* display: block; */
+}

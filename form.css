@@ -1,0 +1,57 @@
+
+      *{
+        padding: 0%;
+        margin: 0%;
+      }
+      .parent {
+        width: 100%;
+        background-color: rgb(204, 237, 246);
+        float: left;
+      }
+      .sub-parent {
+        margin: 1%;
+        width: 98%;
+        float: left;
+      }
+      .child{
+        width: 46%;
+        margin: 1%;
+        float: left;
+      }
+      .button{
+        float:right;
+        margin: 2% 0%;
+        margin-right: 5%;
+      }
+      .para{
+        font-family:sans-serif;
+        text-align: center;
+      }
+      .button-register {
+        background-color: black;
+        border-width: 0;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        font-weight: bolder;
+        color: white;
+      }
+  
+      .registerbtn:hover {
+        border-color: white;
+        background-color: white;
+      }
+      .lable-style{
+        font-weight: bold;
+        width: 100%;
+        line-height: 40px;
+        float: left;
+      }
+      .textbox-style {
+        color: black;
+        border: 0;
+        border-radius: 15px;
+        padding: 10px;
+        width: 80%;
+      }
+    
