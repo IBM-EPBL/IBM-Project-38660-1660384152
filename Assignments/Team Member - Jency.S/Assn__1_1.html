@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assn_1_2</title>
+    <style>
+        body {
+            margin-top: 60px;
+            text-align: center;
+            background: linear-gradient(to right, rgb(163, 152, 93), rgb(127, 142, 221));
+        }
+
+        h1 {
+            font-size: 40px;
+            color: white;
+        }
+
+        .Form {
+            margin: auto;
+            width: 700px;
+            background-color: rgb(61, 61, 61);
+            border-radius: 10px;
+            padding: 20px 20px 20px 20px;
+        }
+
+        .form-rows {
+            position: static;
+            display: block;
+        }
+
+        .labels {
+            color: white;
+            display: inline-block;
+            text-align: right;
+            width: 40%;
+            padding: 5px;
+            vertical-align: top;
+            margin-top: 10px;
+        }
+
+        .fields {
+            display: inline-block;
+            text-align: left;
+            width: 45%;
+            vertical-align: middle;
+        }
+
+        .input {
+            height: 20px;
+            width: 270px;
+            padding: 5px;
+            margin: 10px;
+            border: 1px solid gray;
+            border-radius: 4px;
+        }
+
+        .button {
+            font-size: 1em;
+            background-color: rgb(14, 184, 222);
+            color: white;
+            border: 0px solid;
+            border-radius: 4px;
+            height: 40px;
+            width: 80px;
+            margin: 10px;
+        }
+
+        @media (max-width: 833px) {
+            .Form {
+                width: 70%;
+            }
+
+            .fields {
+                display: inline-block;
+                text-align: left;
+                width: 48%;
+                vertical-align: middle;
+            }
+
+            .input {
+                width: 80%;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .Form {
+                width: 80%;
+            }
+
+            .fields {
+                width: 80%;
+                float: left;
+            }
+
+            .labels {
+                width: 100%;
+                text-align: left;
+            }
+
+            .input {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Registration Form</h1>
+        <div class="Form">
+            <fieldset>
+                <centre>
+                    <form>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="name" id="name-label">Name</label>
+                            </div>
+                            <div class="fields">
+                                <input type="text" id="name" class="input" placeholder="Enter your name" required>
+                            </div>
+                        </div>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="email" id="email-label">Email</label>
+                            </div>
+                            <div class="fields">
+                                <input type="email" id="email" class="input" placeholder="Enter your email address"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="mobile number" id="mobile number-label">Mobile Number</label>
+                            </div>
+                            <div class="fields">
+                                <input type="tel" id="mobile number" class="input" pattern="[0-9]{10}"
+                                    placeholder="Enter your mobile number">
+                            </div>
+                        </div>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="email" id="email-label">Email ID</label>
+                            </div>
+                            <div class="fields">
+                                <input type="email" id="email" class="input" placeholder="Enter a email ID" required>
+                            </div>
+                        </div>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="city" id="city-label">City</label>
+                            </div>
+                            <div class="fields">
+                                <input type="text" id="city" class="input" placeholder="Enter your city">
+                            </div>
+                        </div>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="state" id="state-label">State</label>
+                            </div>
+                            <div class="fields">
+                                <input type="text" id="state" class="input" placeholder="Enter your state">
+                            </div>
+                        </div>
+
+                        <div class="form-rows">
+                            <div class="labels">
+                                <label for="country" id="country-label">Country</label>
+                            </div>
+                            <div class="fields">
+                                <input type="text" id="country" class="input" placeholder="Enter your country">
+                            </div>
+                        </div>
+
+                        <button class="button" id="submit" type="submit">Register</button>
+
+                    </form>
+                </centre>
+        </div>
+    </main>
+</body>
+
+</html>

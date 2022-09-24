@@ -1,0 +1,84 @@
+body{
+    margin-top: 60px;
+    text-align: center;
+    background:linear-gradient(to right,rgb(228, 81, 238),rgb(29, 34, 60));
+}
+h1{
+    font-size: 40px;
+    color: white;
+} 
+.Form{
+    margin: auto;
+    width: 700px;
+    background-color: rgb(13, 3, 59);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.form-rows{
+    position: static;
+    display: block;
+    margin-right: 200px;
+}
+.labels{
+    color: white;
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.fields{
+    display: inline-block;
+    text-align: left;
+    width: 45%;
+    vertical-align: middle;
+}
+.input{
+    height: 20px;
+    width: 270px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+.button{
+    font-size: 1em;
+    background-color: rgb(14, 184, 222);
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+@media (max-width: 833px){
+.Form{
+    width: 70%;
+}  
+.fields{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+.input {
+    width: 80%;
+}
+}
+@media (max-width: 520px){
+.Form{
+    width: 80%;
+}
+.fields{
+    width: 80%;
+    float: left;
+}
+.labels{
+    width: 100%;
+    text-align: left;
+}
+.input{
+    width: 100%;
+}
+}
