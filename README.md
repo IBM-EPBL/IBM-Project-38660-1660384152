@@ -6,10 +6,10 @@
 **TEAM ID: PNT2022TMID31287**
 
 **TEAM MEMBERS: 
-      - Jency.S
-      - Karthika.S
-      - Ajaykumar.J
-      - Aarthi.A.P**
+- Jency.S
+- Karthika.S
+- Ajaykumar.J
+- Aarthi.A.P**
 
 ## **PROJECT IDEA:**
 This application is intended to provide information about containment zones in a particular region by alerting people, through continuous monitoring of an individual's location.  Key benefits of the application are monitoring people's activity and alerting them of their safety movements.
